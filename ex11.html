@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+ano_atual = 2020
+
+ano_nasc = Number(prompt("Escreva seu ano de nascimento"))
+ano_adm = Number(prompt("Escreva seu ano de admissão"))
+codigo = Number(prompt("Digite seu código"))
+
+if (ano_atual - ano_nasc >= 65)
+{
+    console.log("Requerer aposentadoria")
+}
+else 
+{
+    if (ano_atual - ano_adm >= 30)
+    {
+        console.log("Requerer aposentadoria")
+    }
+    else
+    {
+        if(ano_atual - ano_nasc >= 60 && ano_atual - ano_adm >= 25)
+        {
+            console.log("Requerer aposentadoria")
+        }
+        else
+        {
+            console.log("Aposentadoria não vai rolar")
+        }
+    }
+}
+</script>

@@ -1,0 +1,50 @@
+<meta charset="UTF-8">
+
+<script>
+    var a = [5],b = [5], c = [5]
+    
+    for (var i = 0; i < 5; i++)
+    {
+        a[i] = Number(prompt("Digite os números"))
+        if(i == 0)
+        {
+            document.write("Vetor A: ")
+        }
+        document.write(a[i])
+        if(i <4)
+        {
+            document.write(",")
+        }
+    }
+    document.write("<br>")
+    
+    for (var i = 0; i < 5; i++)
+    {
+        b[i] = a[i] * 2
+        if(i == 0)
+        {
+            document.write("Vetor B: ")
+        }
+        document.write(b[i])
+        if(i <4)
+        {
+            document.write(",")
+        }
+    }
+    document.write("<br>")
+    
+    for (var i = 0; i < 5; i++)
+    {
+        c[i] = a[i] + b[i]
+        if(i == 0)
+        {
+            document.write("Vetor C: ")
+        }
+        document.write(c[i])
+        if(i <4)
+        {
+            document.write(",")
+        }
+    }
+    document.write("<br>")
+</script>

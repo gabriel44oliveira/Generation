@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+nome = prompt("Digite seu nome")
+n1 = Number(prompt("Digite sua primeira nota"))
+n2 = Number(prompt("Digite sua segunda nota"))
+n3 = Number(prompt("Digite sua terceira nota"))
+
+media = (n1+n2+n3)/3
+Math.round(media)
+
+if (media >= 7)
+{
+    resultado = "Aprovado!"
+}
+else
+{
+    resultado = "Reprovado!"
+}
+
+console.log(nome + " teve média: " + media, "e foi " + resultado)
+</script>

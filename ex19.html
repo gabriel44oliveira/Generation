@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+    var salario, totalSalario = 0, media, contador = 1
+
+    while(contador <=5)
+    {
+        salario = Number(prompt("Digite seu salário"))
+        totalSalario+=salario
+        contador++
+    }
+    console.log(totalSalario)
+    media = totalSalario / (contador - 1)
+    console.log("A média dos saláios é: ", media)
+</script>
