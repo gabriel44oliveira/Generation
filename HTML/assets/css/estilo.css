@@ -1,0 +1,32 @@
+h1 {
+    color: #1BB394;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+}
+
+p#laranja {
+    color:rgb(189, 17, 11);
+    font-family: 'Open Sans', cursive;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+p#verde {
+    color:#B33609;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Open Sans', cursive;
+}
+
+p.grupo1 {
+    font-size: 50px;
+    color: #B33609;
+}
+
+p.grupo2 {
+    font-size: 50px;
+    color: #FF7340;
+}
+
+

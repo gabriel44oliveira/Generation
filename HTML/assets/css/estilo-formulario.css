@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: midnightblue;
+}
+div {
+    height: 500px;
+    width: 500px;
+    padding:60px;
+    margin: 0 auto;
+    background-color: orchid;
+    border-radius: 5%;
+    border-style: solid;
+    background-image: url(../imagens/esquilo.jpg);
+}
+h1 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
