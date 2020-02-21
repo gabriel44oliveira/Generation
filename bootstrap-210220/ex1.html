@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex1 - Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .card-text {
+            text-align: justify;
+        }
+        /* Media queries */
+        @media (min-width: 500px) {
+            .carousel{width: 90%;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Ativo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Desativado</a>
+        </li>
+      </ul>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" >
+          <div class="carousel-item active" data-interval="100">
+            <img class="d-block w-100" src="./assets/img/slide3.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item" data-interval="100">
+            <img class="d-block w-100" src="./assets/img/slide2.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item" data-interval="100">
+            <img class="d-block w-100" src="./assets/img/slide1.jpg" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+
+    <button>Clique Aqui</button>
+    <br><br>
+    <button type="button" class="btn btn-primary">Clique Aqui</button>
+    <br><br>
+    <button type="button" class="btn btn-warning btn-lg btn-block">Warning</button>
+    <br><br>
+
+    <!-- checkbox e radio button -->
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary ">
+            <input type="radio" name="options" id="option1" autocomplete="off" > Outros
+        </label>
+        <label class="btn btn-secondary active">
+            <input type="radio" name="options" id="option2" autocomplete="off" checked> Feminino
+        </label>
+        <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option3" autocomplete="off"> Masculino
+        </label>
+    </div>
+    <br><br>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/img/esquilo.jpg" alt="Imagem de um esquilo">
+        <div class="card-body">
+          <h5 class="card-title">Esquilo</h5>
+          <p class="card-text">Essa é uma espécie de esquilo muito fofa</p>
+          <a href="https://www.youtube.com/watch?v=bMCcZaGAze8" class="btn btn-primary" target="_blank">Visitar o esquilo</a>
+        </div>
+      </div>
+    
+    <!-- bootstrap - javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <br><br>
+    <div class="jumbotron">
+        <h1 class="display-4">Olá, mundo!</h1>
+        <p class="lead">Este é um simples componente jumbotron para chamar mais atenção a um determinado conteúdo ou informação.</p>
+        <hr class="my-4">
+        <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a>
+      </div>
+    </div>
+</body>
+</html>
