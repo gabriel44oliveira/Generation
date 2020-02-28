@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Part2-5</title>
+</head>
+<body>
+    <script>
+        palavra = prompt("Digite uma palavra") 
+        
+        palavra_vetor = palavra.split("")
+
+
+        for (i = 0; i < palavra_vetor.length; i++){
+            if (i == 0){
+                palavra_vetor[i] = palavra_vetor[i].toUpperCase()
+            }
+            if (palavra_vetor[i] == " ") {
+                i++
+                palavra_vetor[i] = palavra_vetor[i].toUpperCase()
+            }
+        }
+        palavra_vetor = palavra_vetor.join("")
+        alert(palavra_vetor)
+    </script>
+</body>
+</html>

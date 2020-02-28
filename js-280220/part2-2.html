@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Part2-2</title>
+</head>
+<body>
+    <script>
+        info = prompt("Digite uma palavra")
+
+        info = info.split("").join("")
+        info = info.split(" ").join("")
+        info = info.split("/").join("")
+        info = info.split(",").join("")
+        console.log(info)
+
+        info2 = info.split("").reverse().join("")
+
+        console.log("info: ", info)
+        console.log("info2: ",info2)
+
+        if(info == info2){
+            alert("é um palindrome")
+        }
+        else {
+            alert("Não é um palindrome")
+        }
+    </script>
+
+</body>
+</html>

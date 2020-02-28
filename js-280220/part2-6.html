@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>part2-6</title>
+</head>
+<body>
+    <script>
+        frase = prompt("Digite uma frase: ")
+        vetor_frase = frase.split(" ")
+        maior = vetor_frase[0]
+
+        for (i = 0; i < vetor_frase.length; i++){
+            if (vetor_frase[i].length > maior.length){
+                maior = vetor_frase[i]
+                console.log(maior)
+            }
+        }
+        alert(maior)
+
+    </script>
+</body>
+</html>
