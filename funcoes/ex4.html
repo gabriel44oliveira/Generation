@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function menorValor(a,b,c){
+            if (b < a && b < c){
+                return b
+            }
+            else {
+                if (a < c){
+                    return a
+                } 
+                else {
+                    return c
+                }
+            }
+        }
+        a = Number(prompt("Digite o número a: "))
+        b = Number(prompt("Digite o número b: "))
+        c = Number(prompt("Digite o número c: "))
+        var menor = menorValor(a,b,c)
+        alert("menor número: " + menor)
+    </script>
+</body>
+</html>
